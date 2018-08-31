@@ -56,7 +56,7 @@ int put(int startM, int startN) {
 			code += n;
 		}
 		pt += n;
-		startM = startM + 7;
+		startM += 7;
 	}
 	if (code % 10 != 0) {
 		pt = 0;
